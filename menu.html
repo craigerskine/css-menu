@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>CSS Menu</title>
+
+  <!--[if gte IE 9]><!-->
+  <style>
+    * { margin: 0; border: 0; padding: 0; font-size: 100%; }
+    body { padding: 2em; font: 14px Arial, sans-serif; background: #FFF; color: #333; }
+
+    a { color: #428BCA; text-decoration: none; }
+    a:hover,a:focus { color: #999; text-decoration: none; outline: 0; }
+
+    h1,h2,h3,h4,h5,h6 { margin: 0 0 20px; font-size: 30px; line-height: 1.1; }
+    h2 { font-size: 28px; }
+    h3 { border-bottom: 1px solid #DDD; padding: 0 0 10px; font-size: 24px; }
+    h4 { font-size: 20px; }
+    h5 { font-size: 18px; }
+    h6 { font-size: 16px; }
+
+    p,ul,ol,table { margin: 0 0 20px; }
+    ul,ol { margin: 0 0 20px 25px; }
+    ul ul,ul ol,ol ol,ol ul{ margin-bottom: 0; }
+    table table { margin-bottom: 0; }
+    hr { margin: 0 0 19px; border: 0 none; border-top: 1px solid #DDD; height: 0; background: transparent; color: transparent; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    nav { margin: 0 0 20px; }
+    nav:before,nav:after { content: " "; display: table; }
+    nav:after { clear: both; }
+
+    .container { margin: 0 auto; max-width: 940px; }
+  </style>
+  <link rel="stylesheet" href="menu.css" />
+  <!--<![endif]-->
+
+</head>
+<body>
+
+  <div class="container">
+
+    <h3>Horizontal</h3>
+
+    <nav>
+      <ul class="nav-menu nav-center">
+        <li><a href="#">Nav Link</a></li>
+        <li><a href="#" class="current">Nav Link</a>
+          <ul>
+            <li><a href="#">Sub Nav Link</a></li>
+            <li><a href="#">Sub Nav Link</a>
+              <ul>
+                <li><a href="#">Sub Sub Nav Link</a></li>
+                <li><a href="#">Sub Sub Nav Link</a></li>
+                <li><a href="#">Sub Sub Nav Link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Sub Nav Link</a></li>
+            <li><a href="#">Sub Nav Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Nav Link</a></li>
+        <li><a href="#">Nav Link</a></li>
+        <li><a href="#">Nav Link</a></li>
+      </ul>
+    </nav>
+
+    <h3>Vertical</h3>
+
+    <nav>
+      <ul class="nav-menu nav-vertical">
+        <li><a href="#">Nav Link</a></li>
+        <li><a href="#" class="current">Nav Link</a>
+          <ul>
+            <li><a href="#">Sub Nav Link</a></li>
+            <li><a href="#">Sub Nav Link</a>
+              <ul>
+                <li><a href="#">Sub Sub Nav Link</a></li>
+                <li><a href="#">Sub Sub Nav Link</a></li>
+                <li><a href="#">Sub Sub Nav Link</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Sub Nav Link</a></li>
+            <li><a href="#">Sub Nav Link</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Nav Link</a></li>
+        <li><a href="#">Nav Link</a></li>
+        <li><a href="#">Nav Link</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</body>
+</html>
