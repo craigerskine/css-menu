@@ -1,4 +1,4 @@
-# css-menu
+# [css-menu](https://craigerskine.github.io/css-menu/)
 Pure CSS multi-menu navigation system with hover persistence
 
 * Up to 4 levels (3 sub menus)
